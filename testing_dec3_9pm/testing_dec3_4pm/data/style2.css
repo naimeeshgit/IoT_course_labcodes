@@ -1,0 +1,99 @@
+:root {
+    --clr-neon: hsl(175 94% 56%);
+    --clr-neon3: hsl(94 97% 57%);
+    --clr-neon2: hsl(11 80% 60%);
+    --clr-neon4: hsl(46 63% 50%);
+    --clr-bg: hsl(0 0% 0%);
+}
+
+.hexagon {
+    font-size: 2rem;
+    position: relative;
+    top: 3em;
+    right: 9.1em;
+    margin: 0 auto;
+    background-color: var(--clr-neon);
+    border-radius: 10px;
+    width: 63px;
+    height: 63px;
+    box-sizing: border-box;
+    border: var(--clr-neon) 0.4vh solid transparent;
+    transform: rotate(45deg);
+}
+
+.hexagon2 {
+    font-size: 2rem;
+    position: relative;
+    top: 7em;
+    right: 10em;
+    margin: 0 auto;
+    background-color: var(--clr-neon2);
+    border-radius: 10px;
+    width: 63px;
+    height: 63px;
+    box-sizing: border-box;
+    border: var(--clr-neon2) 0.4vh solid transparent;
+    transform: rotate(45deg);
+}
+
+.hexagon3 {
+    font-size: 2rem;
+    position: relative;
+    top: 7em;
+    right: 9em;
+    margin: 0 auto;
+    background-color: var(--clr-neon3);
+    border-radius: 10px;
+    width: 63px;
+    height: 63px;
+    box-sizing: border-box;
+    border: var(--clr-neon3) 0.4vh solid transparent;
+    transform: rotate(45deg);
+}
+
+.hexagon4 {
+    font-size: 2rem;
+    position: relative;
+    top: 11em;
+    right: 10em;
+    margin: 0 auto;
+    background-color: var(--clr-neon4);
+    border-radius: 10px;
+    width: 63px;
+    height: 63px;
+    box-sizing: border-box;
+    border: var(--clr-neon4) 0.4vh solid transparent;
+    transform: rotate(45deg);
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotate(-45deg);
+}
+
+
+/*.gif {
+    position: relative;
+    bottom: 15em;
+    left: 60em;
+}
+
+.unk {
+    position: relative;
+    left: 10em;
+    bottom: 15em;
+}
+
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}*/
+
+
+/* Creating pseudo-class */
